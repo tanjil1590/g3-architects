@@ -63,9 +63,10 @@ nav li a{
      font-weight: 700;
      color: #131313;
 }
-.banner-desciption{
+.text-light-gray{
     font-size: 1rem;
     font-weight: 400;
+    color: #727272 ;
 
 }
 .banner img{
@@ -107,6 +108,38 @@ nav li a{
     font-weight: 700;
 }
 
+
+/*facts section*/
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #ff900E;
+    text-align: center;
+    padding:30px;
+   
+
+   
+}
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card-starts{
+    color: #424242;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.facts-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+
+
+}
+
 /*Responsibe media header*/
 @media screen and (max-width:576px) {
     header{
@@ -135,3 +168,4 @@ nav li a{
    
     
 }
+
